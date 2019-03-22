@@ -10,4 +10,4 @@
 
 #Ignora a configuracão da base de dados.
 
-bancoDados/basesDados/configBase.php
+./bancoDados/basesDados/configBase.php
