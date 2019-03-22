@@ -56,12 +56,12 @@
 		<!-- Aqui entra as tabs para visualização dos resultados -->
 		<div id="tabs">
 			<ul class="nav nav-tabs" id="mytab">
-			
+
 				<!-- Tab para visualização do esquema -->
 				<li class=" active"><a href="#tab0" data-toggle="tab"> <i
 						class="icon-search glyphicon glyphicon-th-large"></i> CONSULTA
 				</a></li>
-				
+
 				<!-- Tab para visulização do esquema -->
 				<li class=""><a href="#tab1" data-toggle="tab"> <i
 						class="glyphicon glyphicon-list"></i> TABELA
@@ -73,7 +73,7 @@
 				</a></li>
 			</ul>
 		</div>
-		
+
 		<!-- Aqui temos o que ira conter dentro de cada tab -->
 		<div class="tab-content">
 				<div class="tab-pane active" id="tab0">
@@ -83,16 +83,16 @@
 				<div class="tab-pane" id="tab1">
     				<?php include('tab_results.php'); ?>
     			</div>
-    			
+
 				<div class="tab-pane" id="tab2">
 				<div id = "mapa">
 				<!-- <iframe id = "postgref" src = "./visualizacao/geovis.html"></iframe> -->
 				 <?php include ('tab_map.php');?>
 				 </div>
-			
+
     			</div>
 		</div>
-		
+
 		<script type="text/javascript">
 		$( "#navtab2" ).click(function() {
 			//var agor = document.getElementsByClassName('ol-unselectable');
