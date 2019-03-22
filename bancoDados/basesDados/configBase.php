@@ -1,7 +1,7 @@
 <?php
 define ( 'bd_dns', "pgsql" );
 define ( "bd_name", "brasil" );
-define ( "bd_server", "" );
+define ( "bd_server", "sandwich.lbd.dcc.ufmg.br" );
 define ( "bd_user", "geosql" );
 define ( "bd_password", "ge0sq1" );
 define ( "bd_schema", "public" );
