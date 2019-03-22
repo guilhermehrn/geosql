@@ -72,7 +72,7 @@
 		<!-- Aba de inicio contem as visualizações -->
  		<div class="tab-pane  active" id="inicio">
 
-	<!-- -->
+	<!--fim -->
 
 	<div class="container">
 
