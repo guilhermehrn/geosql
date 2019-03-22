@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+
+#vide{
+	left: 20%;
+    position: relative;
+}
+
+#titulovideo{
+	
+	left: 28%;
+	position: relative;
+}
+
+#contatos {
+    height: 78px;
+    left: 85px;
+    position: relative;
+    width: 385px;
+}
+
+.mail{
+	
+	
+}

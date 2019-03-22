@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+
+body {
+	padding-top: 50px;
+}
+
+.starter-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+
+#imglogo1 {
+	position: relative;
+	top: 50px;
+	max-width: 440px;
+	min-width: 300px;
+}
+
+.mastfoot {
+	bottom: 0;
+	position: fixed;
+    left: 2%;
+    right: 2%;
+}
+
+#frase1 {
+	position: relative;
+	top: 84px;
+}
+
+
+.seletor{
+	
+    position: fixed;
+    top: 445px;
+    left: 36%;
+    right: 37%;
+    width: 400px;
+    height: 54px;
+    
+}
+#botaoIniciar{
+	position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+#nomesBase {
+	
+	width: 256px;
+	
+}
+
+#imggit {
+  	
+     bottom: 7px;
+    position: absolute;
+    right: 10%;
+}
+
+
+#navgeo{
+	
+	font-size: 19px;
+}

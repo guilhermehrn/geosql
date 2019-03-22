@@ -1,0 +1,13 @@
+#Ignora arquivos de IDES de desenvolvimento
+
+.project
+.buildpath
+
+#ignora diretórios de IDES de desenvolvimento
+
+.settings/
+
+
+#Ignora a configuracão da base de dados.
+
+bancoDados/basesDados/configBase.php

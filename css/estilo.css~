@@ -1,0 +1,150 @@
+@CHARSET "UTF-8";
+
+body {
+   padding-bottom: 40px;
+  font-size: 16px;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 600;
+  color: #666;
+}
+
+body .content .section.main {
+  margin-left: 91px;
+  margin-right: 250px;
+}
+
+body .content .section.main .section-header {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  color: #999;
+  border-bottom: 1px solid #FBFBFB;
+}
+
+body .resposta{
+    width: 1070px;
+    height: 570px;
+    position: relative;
+    left: 200px;
+    right: 206px;
+    top: 25px;
+    overflow: auto;
+    border: 100px none #FC1919;
+    width: 82%;
+}
+
+
+.salvarTabela{
+	max-width: 140px;
+	min-width: 130px;
+	position: absolute;
+	left: 20px;
+	right: 1100px;
+	top: 138px;
+}
+
+.nav {	
+margin-left: 300px;		
+}
+
+.logo{
+	width: 146px;
+	position: fixed;
+	position :absolute;
+	left: 20px;
+	top: 4px;
+}
+
+.esquema{
+	height: 390px;
+	width:  95%;
+	position:relative;
+	left: 20px;
+	right: 100px;
+	top: 25px;
+	background-color: #A9E6F7;
+	overflow: auto;
+	border: 100px 
+}
+
+#consulta{
+	position : relative;
+	top :30px;
+}
+
+#query{
+	width: 60%;
+	position: relative;
+	left: 20px;
+	right: 100px;
+}
+
+.query{
+	left: 20px;
+	position: relative;
+}
+
+#btn_query{
+	left: 66%;
+    max-width: 153px;
+    min-width: 100px;
+    position: absolute;
+    top: 57px;
+}
+
+#tabSchema{
+	border-width: 2px 1px 3px 0px;
+	width: 45%;
+	left: 2%;
+	margin-bottom: 18px;	
+	border-color: #8C96CB #DDD #DDD -moz-use-text-color;
+	background-color: #FFF;
+	position: relative;
+	text-align: center;
+	border-radius: 15px;
+}
+
+#tableResult{
+	left: 86px;
+    position: absolute;
+    text-align: right;
+    width: 85%;
+}
+
+#ajuda{
+	
+	 left: 82%;
+    position: absolute;
+    top: 55px;
+}
+
+
+#postgref{
+	height: 94%;
+    position: absolute;
+    top: 61px;
+    width: 100%;
+    border: 1px;
+}
+
+#sobre{
+	left: 17px;
+    position: relative;
+}
+
+#mod{
+    background-color: blue;
+    height: 100%;
+    left: 1px;
+    position: absolute;
+    width: 99%;
+
+}
+#mapa{
+	position: absolute;
+    top: 64px;
+    width: 100%;
+}
+
+#headTabela{
+background-color: #61C8ED;
+}

@@ -1,0 +1,227 @@
+@CHARSET "UTF-8";
+
+.ol-overviewmap-box {
+	border: 2px solid rgb(0, 26, 136);
+	background-color: #FFF;
+	opacity: 0.6;
+}
+
+.ol-scale-line {
+	background: rgba(0, 98, 136, 0.48) none repeat scroll 0% 0%;
+	border-radius: 4px;
+	bottom: 9px;
+	left: 45%;
+	padding: 8px;
+	position: absolute;
+}
+
+/*estilo do botão de zoom =====================================================*/
+.ol-zoom .ol-zoom-out {
+	margin-top: 204px;
+}
+
+.ol-zoomslider {
+	background-color: transparent;
+	top: 2.3em;
+}
+
+.ol-touch .ol-zoom .ol-zoom-out {
+	margin-top: 212px;
+}
+
+.ol-touch .ol-zoomslider {
+	top: 2.75em;
+}
+
+.ol-zoom-in.ol-has-tooltip:hover [role=tooltip], .ol-zoom-in.ol-has-tooltip:focus [role=tooltip]
+	{
+	top: 3px;
+}
+
+.ol-zoom-out.ol-has-tooltip:hover [role=tooltip], .ol-zoom-out.ol-has-tooltip:focus [role=tooltip]
+	{
+	top: 232px;
+}
+
+
+
+
+
+/*estilos das janelas Popup ============================================================*/
+.ol-popup {
+	position: absolute;
+	background-color: white;
+	-webkit-filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+	filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+	padding: 15px;
+	border-radius: 10px;
+	border: 2px solid #221EE3;
+	bottom: 12px;
+	left: -50px;
+}
+
+.ol-popup:after, .ol-popup:before {
+	top: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.ol-popup:after {
+	border-top-color: white;
+	border-width: 10px;
+	left: 48px;
+	margin-left: -10px;
+}
+
+.ol-popup:before {
+	border-top-color: #cccccc;
+	border-width: 11px;
+	left: 48px;
+	margin-left: -11px;
+}
+
+.ol-popup-closer {
+	text-decoration: none;
+	position: absolute;
+	top: 2px;
+	right: 8px;
+}
+
+.ol-popup-closer:after {
+	content: "✖";
+}
+
+#popup-content {
+	width: 301px;
+}
+
+#popupRotulo {
+	float: left;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+#popupKey {
+	left: 8px;
+	position: relative;
+}
+
+
+/*estilo do menu legenda ======================*/
+
+#legenda {
+    position: absolute;
+    top: 40px;
+    right: 7px;
+    padding: 3px;
+    border-radius: 4px;
+    color: #060C36;
+    background: rgba(255, 255, 255, 0.4) none repeat scroll 0% 0%;
+    z-index: 100;
+    width: 347px;
+    padding-top: 3px;
+    padding-bottom: 9px;
+}
+
+.container-fluid{
+
+
+}
+
+.form-control {
+    display: block;
+    height: 34px;
+    width: 40px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    padding: 4px 6px;
+    float: left;
+}
+
+.lineFillSelec{
+
+  	display: block;
+    height: 34px;
+    width: 40px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    padding: 12px 6px;
+    float: left;
+
+}
+
+.btn{
+	margin-left: 5px;
+}
+
+.legendaL {
+    width: 327px;
+    height: 75px;
+    background-color: rgba(207, 223, 251, 0.81);
+    position: relative;
+    left: 6px;
+    padding-left: 0px;
+    padding-top: 4px;
+    border-radius: 6px;
+    border: 2px solid rgba(6, 95, 251, 0.8);
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+}
+
+.rotulolegenda{
+	position: relative;
+	left: 5px;
+}
+
+#conjuntoLegenda {
+    position: absolute;
+    top: 7px;
+    right: 0px;
+}
+
+#botaoLegenda{
+	position: absolute;
+    right: 7px;
+    background-color: rgba(0, 60, 136, 0.7);
+    border-width: 3px;
+    border-color: rgba(255, 255, 255, 0.6);
+    color: #FFF;
+}
+
+.btnV{
+	float:left;
+	margin-left: 5px;
+}
+
+/*estilo do map ====================================================================*/
+
+#map {
+    width: 102%;
+    position: relative;
+    right: 11px;
+}
+
+.show {
+  display: block !important;
+}
+.hidden {
+  display: none !important;
+}
+.invisible {
+  visibility: hidden;
+}
+
+
+canvas{
+	display: block !important;
+	
+}
