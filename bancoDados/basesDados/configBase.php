@@ -2,7 +2,7 @@
 error_reporting(0);
 define ( 'bd_dns', "pgsql" );
 define ( "bd_name", "brasil" );
-define ( "bd_server", "" );
+define ( "bd_server", "adfad" );
 define ( "bd_user", "" );
 define ( "bd_password", "" );
 define ( "bd_schema", "public" );
